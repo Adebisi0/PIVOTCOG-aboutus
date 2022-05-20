@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Montserrat:wght@400;500;600;700&display=swap');
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+
+}
+
+.firstSection{
+padding: 0 7%;
+}
+.nav{
+  margin: 0;
+width: 100%;
+  display: inline-flex;
+
+}
+.logo{
+color: #16306E;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: 0.1em;
+}
+.text{
+  margin-left:auto;
+display: inline-flex;
+color: #16306E;
+}
+.space{
+  margin: auto 20px;
+}
+.firstButton{
+  border-radius: none;
+  width: 60%;
+  height: 30%;
+  color: #ffffff;
+  background-color: #16306E;
+  border: thin;
+}
+
+
+/* next */
+
+
+.contain{
+  display: inline-flex;
+  padding: 7% 0 3% 7%;
+  margin: 0;
+  background-image: url(./images/Aboutusimg.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+img{
+  background-color: white;
+}
+.big-text{
+width: 35%;
+}
+.abt {
+color: #000000;
+font-weight: 400;
+font-size: 40px;
+line-height: 55px;
+margin-bottom: 0;
+}
+.dang {
+color: #16306E;
+font-weight: 700;
+}
+.ips {
+color: #8692A6;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+}
+
+
+/* mission */
+
+.absolute {
+  background-color: #F5F8FC;
+}
+.mission{
+  padding: 3% 3% 0 7%;
+  margin-left: 0;
+}
+.second-Sec{
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.secondSec{
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.mission-text{
+  color: #ffffff;
+  font-weight: 700px;
+  font-size: 1.5rem;
+}
+.missiontext {
+  color: #16306E;
+  font-weight: 700px;
+  font-size: 1.5rem;
+}
+.paragraph{
+width: 521px;
+padding-top: 2%;
+color: #ffffff;
+font-weight: 500;
+font-size: 16px;
+}
+.paragra {
+  color: #8692A6;
+  width: 521px;
+  padding-top: 2%;
+  font-weight: 500;
+  font-size: 16px;
+}
+.disabled-text{
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: 700;
+  opacity: 0.5;
+margin-top: 0;
+margin-bottom: 0;
+}
+.disabledtext {
+  color: #bdb4b4;
+  font-size: 4rem;
+  font-weight: 700;
+  opacity: 0.5;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+/* definition */
+.definition{
+  background-image: url(./images/peoplejoininghands.jpg);
+  background-color: #4a66a7;
+  background-size: 100%;
+  background-blend-mode: multiply;
+}
+
+/* work */
+.work{
+  padding: 7% 5% 11%;
+  background-color: #F5F8FC;
+}
+.outer{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.inner1{
+  width: 40%;
+}
+.inner2{
+  width: 50%;
+}
+.work-img {
+  width: 853px;
+  height: 511px;
+}
+.do{
+  margin-top: 20px;
+  color: #16306E;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 51px;
+}
+.dopiv {
+  font-weight: 700;
+}
+.doo {
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}
+.para {
+  color:  #8692A6;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+/* cards */
+.cards{
+  padding: 7% 2%;
+  text-align: center;
+}
+.heading{
+  width: 30%;
+  text-align: center;
+}
+.outside{
+  display: flex;
+  justify-content: center;
+}
+
+.card-divs{
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  justify-content: center;
+  background-color:  #dcebfc;
+  padding: 1px 0;
+}
+.first{
+  padding: 2% 2%;
+width: 20%;
+height: auto;
+background-color: white;
+border: none;
+margin: auto ;
+border-radius: 2%;
+}
+.How {
+  color: #16306E;
+  font-weight: 700;
+  font-size: 30px;
+}
+.reduce {
+  color: #8692A6;
+  font-weight: 400;
+  font-size: 12px;
+}
+.left{
+  margin-left: 5px;
+}
+.pic{
+  width: 30%;
+  border-radius: 80%;
+}
+.staff {
+  color: #16306E;
+  font-weight: 700;
+}
+.position {
+  color: #8692A6;
+  font-weight: 400;
+  font-size: 12px;
+}
+.bio{
+  text-decoration: none;
+  color: #3370FF;
+}
+
+/* getstarted */
+.getStarted{
+  padding: 3% 4%;
+  background-color: #16306E;
+}
+
+.GS {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 0;
+}
+
+.free {
+  font-weight: 400;
+  font-size: 20px;
+}
+.outer-div{
+  display: flex;
+  justify-content: center;
+}
+.whole-text{
+  text-align: center;
+  color: white;
+}
+.getStarted-button{
+  border-radius:4%;
+  padding: 4px 30px;
+  width: auto;
+  height: 45px;
+  color: #16306E;
+  background-color: white;
+  border: thin;
+}
+
+/* footer */
+.footer{
+  padding: 10% 5%;
+  background-color: #fff;
+}
+.boss{
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  color: #16306E;
+}
+.ser-com{
+  display: inline-flex;
+  font-weight: 400;
+  font-size: 15px;
+}
+.service{
+  margin-right: 30px;
+}
+a{
+  text-decoration: none;
+  color: #16306E;
+}
+.icons{
+}
+.fa-brands{
+  margin: 5px;
+}
