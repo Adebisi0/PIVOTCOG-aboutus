@@ -89,18 +89,17 @@ line-height: 25px;
 
 /* mission */
 
-.absolute {
-  background-color: #ffffff;
-}
 .mission{
-  padding: 0 7% 0 7%;
-  margin-left: 0;
+  padding: 7% 7% 0 7%;
+
   height: 7cm;
+
 }
-.pivotcog {
-  bottom: -138px;
-  left: 21%;
-  width: 325px;
+
+
+.letter{
+width: 40%;
+margin-top: 34px;
 }
 .second-Sec{
   display: inline-flex;
@@ -202,13 +201,15 @@ font-size: 16px;
 }
 
 .card-divs{
-  max-width: 1200px;
+  max-width: 100%;
   display: flex! important;
   justify-content: center;
   padding-top: 4rem;
   margin: 0;
 }
-
+.hR{
+  width: 95%;
+}
 .heading {
   margin-bottom: 1.5rem!important;
   border: 0;
@@ -219,6 +220,8 @@ font-size: 16px;
   background-color: #fff;
   background-clip: border-box;
   box-shadow: 7.90043px 2.10678px 17.3809px rgb(179 211 252 / 17%), -9.28563px 15.2426px 21.4102px rgb(179 211 252 / 23%);
+  margin-left: 15px;
+  border-radius: 3%;
 }
 
 .first{
