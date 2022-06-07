@@ -220,10 +220,14 @@ font-size: 16px;
   background-color: #fff;
   background-clip: border-box;
   box-shadow: 7.90043px 2.10678px 17.3809px rgb(179 211 252 / 17%), -9.28563px 15.2426px 21.4102px rgb(179 211 252 / 23%);
-  margin-left: 15px;
+  margin-left: 50px;
   border-radius: 3%;
 }
-
+.reyyy {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 .first{
   padding-top: 49px;
 }
@@ -268,6 +272,7 @@ font-size: 16px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  height: 280px;
 }
 
 .GS {
@@ -283,6 +288,7 @@ font-size: 16px;
 .outer-div{
   display: flex;
   justify-content: center;
+  padding-top: 45px;
 }
 .whole-text{
   text-align: center;
@@ -326,4 +332,14 @@ a{
 }
 .fa-brands{
   margin: 5px;
+}
+
+@media (max-width: 480px) {
+  html {
+    max-width: 480px;
+  }
+
+  .contain {
+    margin-left: 80px;
+  }
 }
